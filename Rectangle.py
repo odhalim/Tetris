@@ -14,15 +14,15 @@ class Rectangle():
 
     def rand(self,choix):
         if choix == 1:
-            return Piece_L([[1,2],[2,2],[3,2],[3,1]])
+            return Piece_L()
         elif choix == 2 :
-            return Piece_S([[1,2],[2,2],[2,1],[3,1]])
+            return Piece_S()
         elif choix == 3 :
-            return Piece_H([[1,1],[2,1],[3,1],[3,2]])
+            return Piece_H()
         elif choix == 4 :
-            return Piece_O([[1,1],[1,2],[2,1],[2,2]])
+            return Piece_O()
         elif choix == 5 :
-            return Piece_I([[1,2],[2,2],[3,2],[4,2]])
+            return Piece_I()
 
 gameover = False
 while gameover == False:
