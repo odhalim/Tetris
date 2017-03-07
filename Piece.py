@@ -2,6 +2,7 @@ from abc import ABCMeta,abstractmethod
 
 class Piece(object):
     __metaclass__ = ABCMeta
+    """abstract class"""
 
     @abstractmethod
     def __init__(self,s):
